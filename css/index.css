@@ -402,6 +402,59 @@ header {
     color: var(--font-color);
 }
 
+/* Choose */
 
+.choose {
+    background-color: var(--bg-color);
+}
 
+.choose img {
+    border-radius: 10px;
+}
+
+.title li {
+    color: var(--heading-color);
+    line-height: 26px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.title li i {
+    color: var(--primary-color);
+    background: var(--bg-light);
+    font-size: 10px;
+    margin-right: 12px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/* Number */
+
+.number {
+    background-color: var(--primary-color);
+}
+
+.number-item {
+    width: 25%;
+    padding: 0;
+    text-align: center;
+}
+
+.number-item {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.number-item h4 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 10px;
+}
 
