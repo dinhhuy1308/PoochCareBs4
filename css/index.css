@@ -344,7 +344,7 @@ header {
     color: var(--font-color);
 }
 
-.aboutus-content .read {
+.read {
     font-size: 17px;
     color: var(--heading-color);
     border-bottom: 2px solid var(--primary-color);
@@ -354,9 +354,54 @@ header {
     transition: all 0.3s;
 }
 
-.aboutus-content .read:hover {
+.read:hover {
     color: var(--primary-color);
 }
+
+/* Features */
+
+.features {
+    background-color: var(--bg-light);
+}
+
+.features-item {
+    padding: 40px 30px;
+    background-color: var(--bg-color);
+    border: var(--border-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.features-item:hover {
+    background-color: var(--bg-light);
+}
+
+.features-item i {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.features-item h4  a {
+    color: var(--heading-color);
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    transition: all 0.5s;
+}
+
+.features-item h4  a:hover {
+    color: var(--primary-color);
+}
+
+.features-item p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: var(--font-color);
+}
+
 
 
 
