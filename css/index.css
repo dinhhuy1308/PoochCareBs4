@@ -252,6 +252,7 @@ header {
 /* Carousel */
 
 .carousel-caption {
+    margin-left: auto;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -272,6 +273,7 @@ header {
 }
 
 .carousel-item h5 {
+    max-width: 700px;
     font-size: 66px;
     line-height: 76px;
     font-weight: 700;
@@ -559,6 +561,75 @@ header {
     .theme {
         top: 0px
     };
+}
+
+
+/* Carousel */
+
+@media screen and (max-width:1200px) {
+    .carousel-item h5 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .carousel-item p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .carousel-caption2, .carousel-caption4 {
+        margin-left: 0;
+    }
+
+    .carousel-item h5 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-item p {
+        font-size: 16px;
+    }
+
+    .carousel-item img {
+        height: 580px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .carousel-item h5 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .carousel-caption {
+        height: 48vh;
+    }
+
+    .carousel-item .btn {
+        margin-top: 0 !important;
+        margin-bottom: 15px;
+    }
+
+    .carousel-caption2, .carousel-caption4 {
+        height: 60vh;
+    }
 }
 
 
