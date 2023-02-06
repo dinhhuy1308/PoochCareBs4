@@ -111,7 +111,7 @@ header {
     background-color: var(--bg-color);
     padding: 0px;
     transition: all 0.4s ease 0s;
-    height: 80px;
+    height: 90px;
     display: grid;
     align-items: center;
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
@@ -469,7 +469,7 @@ header {
     text-align: center;
 }
 
-.number-item {
+.number-item p {
     font-size: 50px;
     color: #fff;
     font-weight: 600;
@@ -664,7 +664,7 @@ header {
 
 /* Choose */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .choose img {
         width: 100%;
     }
@@ -681,5 +681,30 @@ header {
     .title h3 {
         font-size: 27px;
         line-height: 32px;
+    }
+}
+
+/* Number */
+
+@media screen and (max-width: 992px) {
+    .number-content p {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .number-content h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 737px) {
+    .number-content p {
+        font-size: 35px;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+
+    .number-content h4 {
+        font-size: 17px;
     }
 }
