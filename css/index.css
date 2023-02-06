@@ -104,18 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 
 .fixed-top {
-    position: fixed;
     top: 40px;
-    right: 0;
-    left: 0;
-    z-index: 100;
 }
 
 header {
     background-color: var(--bg-color);
     padding: 0px;
     transition: all 0.4s ease 0s;
-    height: 90px;
+    height: 80px;
     display: grid;
     align-items: center;
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
@@ -438,6 +434,13 @@ header {
     border-radius: 10px;
 }
 
+.choose .title p {
+    font-size: 16px;
+    line-height: 24.5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
 .title li {
     color: var(--heading-color);
     line-height: 26px;
@@ -646,10 +649,10 @@ header {
         width: auto;
     }
 
-    .title h3 {
+    /* .title h3 {
         font-size: 32px;
         line-height: 38px;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {
@@ -659,5 +662,24 @@ header {
     }
 }
 
+/* Choose */
 
+@media screen and (max-width: 991px) {
+    .choose img {
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .title h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .title h3 {
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
