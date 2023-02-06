@@ -632,5 +632,32 @@ header {
     }
 }
 
+/* Aboutus */
+
+@media screen and (max-width: 1080px) {
+    .title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus-content {
+        width: auto;
+    }
+
+    .title h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title h3 {
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
+
 
 
